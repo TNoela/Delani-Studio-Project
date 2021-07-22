@@ -1,6 +1,6 @@
 # Delani-Studio
 # Author
-Trixie Noela
+<b>Trixie Noela
 # Description
 This Projects aim is basically to be able to recreate a fiction studio landing page while including the use of both JQuery and bootstrap
 # Technologies Used
@@ -14,9 +14,8 @@ This Projects aim is basically to be able to recreate a fiction studio landing p
 *Clone the repository: <b>[git clone https://github.com/TNoela/Delani-Studio-Project.git ]<br>
 *[cd Delani-Studio]<br>
 *Open index.html file on your browser
- 
 # Live Page
-
+https://tnoela.github.io/Delani-Studio-Project/
 # Contact Information
 Incase of any enquiries or contributions, be sure to Email me at [noelatrixie@gmail.com]
 # License
