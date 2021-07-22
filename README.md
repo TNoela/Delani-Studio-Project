@@ -11,7 +11,7 @@ This Projects aim is basically to be able to recreate a fiction studio landing p
 *Bootstrap<br>
 # Setup Instructions
 *Open the Terminal command line:(CTRL+ALT+T)<br>
-*Clone the repository: <b>[git clone ]<br>
+*Clone the repository: <b>[git clone https://github.com/TNoela/Delani-Studio-Project.git ]<br>
 *[cd Delani-Studio]<br>
 *Open index.html file on your browser
  
