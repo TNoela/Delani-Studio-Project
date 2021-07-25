@@ -96,7 +96,7 @@ font-size: 16px;
 #name::placeholder{
   color: white;
 }
-textarea::placeholder{
+#message::placeholder{
   color: white;
 }
 .icon{
@@ -121,14 +121,4 @@ textarea::placeholder{
     bottom: 0;
     width: 90%;
 }
-
-
-
-
-
-
-
-
-
-
  
