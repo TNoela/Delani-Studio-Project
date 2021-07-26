@@ -106,7 +106,7 @@ $(document).ready(function(){
     var name = $("#name").val();
     var email = $("#email").val();
     var message = $("#message").val();
-    if (name && email){
+    if (name && email && message){
       alert ("Hello " + name + ", we have received your message.Thank you for reaching out to us.");
     }
     else {
