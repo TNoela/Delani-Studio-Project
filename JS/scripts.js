@@ -91,22 +91,6 @@ $(document).ready(function(){
   });
 });
 
-  $("form#form1").on('submit',function(event){
-    event.preventDefault();
-    var name = $("input#name").val();
-    var email = $("input#email").val();
-    var message = $("textarea#message").val();
-
-    if ($("input#name").val() && $("input#email").val() && $("input#message").val() ){
-        alert ("Hello " + name + ", we have received your message.Thank you for reaching out to us.");
-    }
-    else if($("input#name").val() && $("input#email").val()){
-        alert("Please type in on the message section...");
-    }
-   else{
-     alert("Please provide correct Name or Email")
-   }
-});
 //mouse scroll
 $(document).ready(function () {
   $("#mouse").click(function () {
@@ -114,4 +98,21 @@ $(document).ready(function () {
           scrollTop: $(".aboutUs").offset().top
       }, 100);
   });
+});
+
+//message alert
+$(document).ready(function(){
+  $("#form").submit(function(){
+    var name = $("#name").val();
+    var email = $("#email").val();
+    var message = $("#message").val();
+    if (name && email){
+      alert ("Hello " + name + ", we have received your message.Thank you for reaching out to us.");
+    }
+    else {
+      alert("Please key in the correct information!");
+    }
+    
+  });
+
 });
