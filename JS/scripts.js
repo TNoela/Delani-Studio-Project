@@ -107,4 +107,11 @@ $(document).ready(function(){
      alert("Please provide correct Name or Email")
    }
 });
-
+//mouse scroll
+$(document).ready(function () {
+  $("#mouse").click(function () {
+      $('html, body').animate({
+          scrollTop: $(".aboutUs").offset().top
+      }, 100);
+  });
+});
