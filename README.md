@@ -15,7 +15,7 @@ This Projects aim is basically to be able to recreate a fiction studio landing p
 *[cd Delani-Studio]<br>
 *Open index.html file on your browser
 # Live Page
-https://tnoela.github.io/Delani-Studio-Project/
+****
 # Contact Information
 Incase of any enquiries or contributions, be sure to Email me at [noelatrixie@gmail.com]
 # License
